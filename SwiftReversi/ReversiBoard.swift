@@ -15,6 +15,19 @@ class ReversiBoard: Board {
   private let reversiBoardDelegates = DelegateMulticast<ReversiBoardDelegate>()
   private (set) var gameHasFinished = false
 
+  override init() {
+    super.init()
+  }
+
+  init(board: ReversiBoard) {
+    super.init(board: board)
+    
+    nextMove = board.nextMove
+    blackScore = board.blackScore
+    whiteScore = board.whiteScore
+  }
+
+
   func setInitialState() {
     clearBoard()
     

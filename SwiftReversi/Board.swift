@@ -19,6 +19,10 @@ class Board {
     cells = Array(count: boardSize * boardSize, repeatedValue: BoardCellState.Empty)
   }
 
+  init(board: Board) {
+    cells = board.cells
+  }
+
   subscript(location: BoardLocation) -> BoardCellState {
     get {
       assert(isWithinBounds(location), "row or column index out of bounds")

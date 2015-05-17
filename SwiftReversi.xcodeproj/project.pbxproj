@@ -40,6 +40,12 @@
 		918ADA011B0781E6005BC033 /* BoardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918AD9FD1B06C347005BC033 /* BoardDelegate.swift */; };
 		918ADA021B0781F5005BC033 /* DelegateMulticast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918AD9FF1B06C38C005BC033 /* DelegateMulticast.swift */; };
 		918ADA041B078546005BC033 /* MoveDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918ADA031B078546005BC033 /* MoveDirection.swift */; };
+		91B8DFC21B07C01A00D43D78 /* ComputerOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B8DFC11B07C01A00D43D78 /* ComputerOpponent.swift */; };
+		91B8DFC31B07C01A00D43D78 /* ComputerOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B8DFC11B07C01A00D43D78 /* ComputerOpponent.swift */; };
+		91B8DFC41B07C53700D43D78 /* ReversiBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9134B9D41B06731600BEA976 /* ReversiBoard.swift */; };
+		91B8DFC51B07C54400D43D78 /* MoveDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918ADA031B078546005BC033 /* MoveDirection.swift */; };
+		91B8DFC61B07C54B00D43D78 /* BoardSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9134B9D61B06754C00BEA976 /* BoardSquare.swift */; };
+		91B8DFC71B07C54F00D43D78 /* ReversieBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9134B9D81B0687E800BEA976 /* ReversieBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +90,7 @@
 		918AD9FD1B06C347005BC033 /* BoardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardDelegate.swift; path = SwiftReversi/BoardDelegate.swift; sourceTree = SOURCE_ROOT; };
 		918AD9FF1B06C38C005BC033 /* DelegateMulticast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateMulticast.swift; sourceTree = SOURCE_ROOT; };
 		918ADA031B078546005BC033 /* MoveDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveDirection.swift; sourceTree = SOURCE_ROOT; };
+		91B8DFC11B07C01A00D43D78 /* ComputerOpponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComputerOpponent.swift; path = SwiftReversi/ComputerOpponent.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +195,7 @@
 				9134B9CC1B066A3700BEA976 /* BoardLocation.swift */,
 				9134B9CE1B066C0B00BEA976 /* Board.swift */,
 				918AD9FD1B06C347005BC033 /* BoardDelegate.swift */,
+				91B8DFC11B07C01A00D43D78 /* ComputerOpponent.swift */,
 				9134B9D41B06731600BEA976 /* ReversiBoard.swift */,
 				9134BA0C1B07A60900BEA976 /* ReversiBoardDelegate.swift */,
 				918AD9FF1B06C38C005BC033 /* DelegateMulticast.swift */,
@@ -326,6 +334,7 @@
 				9134B9CB1B0669B300BEA976 /* BoardCellState.swift in Sources */,
 				9134B9CF1B066C0B00BEA976 /* Board.swift in Sources */,
 				728E600519436315000E9F89 /* AppDelegate.swift in Sources */,
+				91B8DFC21B07C01A00D43D78 /* ComputerOpponent.swift in Sources */,
 				9134B9CD1B066A3800BEA976 /* BoardLocation.swift in Sources */,
 				918ADA041B078546005BC033 /* MoveDirection.swift in Sources */,
 			);
@@ -335,12 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B8DFC41B07C53700D43D78 /* ReversiBoard.swift in Sources */,
 				9134B9D11B06705400BEA976 /* BoardCellState.swift in Sources */,
 				918ADA021B0781F5005BC033 /* DelegateMulticast.swift in Sources */,
 				9134BA0E1B07A60900BEA976 /* ReversiBoardDelegate.swift in Sources */,
+				91B8DFC51B07C54400D43D78 /* MoveDirection.swift in Sources */,
 				728E601819436315000E9F89 /* SwiftReversiTests.swift in Sources */,
+				91B8DFC71B07C54F00D43D78 /* ReversieBoardView.swift in Sources */,
 				918ADA011B0781E6005BC033 /* BoardDelegate.swift in Sources */,
+				91B8DFC31B07C01A00D43D78 /* ComputerOpponent.swift in Sources */,
 				9134B9D31B06705A00BEA976 /* Board.swift in Sources */,
+				91B8DFC61B07C54B00D43D78 /* BoardSquare.swift in Sources */,
 				9134B9D21B06705700BEA976 /* BoardLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

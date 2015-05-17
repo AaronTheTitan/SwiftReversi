@@ -15,6 +15,7 @@ class ViewController: UIViewController, ReversiBoardDelegate {
   @IBOutlet var restartButton : UIButton!
 
   private let board: ReversiBoard
+  private let computer: ComputerOpponent
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -31,6 +32,7 @@ class ViewController: UIViewController, ReversiBoardDelegate {
   required init(coder aDecoder: NSCoder) {
     board = ReversiBoard()
     board.setInitialState()
+    computer = ComputerOpponent(board: board, color: BoardCellState.Black)
 
     super.init(coder: aDecoder)
 
